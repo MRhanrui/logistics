@@ -1,0 +1,128 @@
+@font-face {
+  font-family: '自定义';  /* project id 750960 */
+  src: url('https://at.alicdn.com/t/font_750960_c9d3gthqmlc.eot');
+  src: url('https://at.alicdn.com/t/font_750960_c9d3gthqmlc.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_750960_c9d3gthqmlc.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_750960_c9d3gthqmlc.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_750960_c9d3gthqmlc.svg#iconfont') format('svg');
+}
+
+body{
+	font-size: .16rem;
+	background: #f2f3f4;
+}
+.header{
+	background: #fff;
+	width: 100%;
+	padding: 0 .3rem;
+	height: .88rem;
+	box-shadow: 0 .1rem .3rem rgba(0, 0, 0, 0.1);
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	
+}
+.city-name{
+	float: left;
+	width: 1.24rem;
+	height: 100%;
+	line-height: .88rem;
+	font-size: .26rem;
+	color: #666;
+	margin-right: .35rem;
+}
+input::-webkit-input-placeholder{
+	color: #ccc;
+	font-size: .28rem;
+}
+.header span{
+	font-family: '自定义';
+	font-size: .1rem;
+}
+.input{
+	display: block;
+	float:left;
+	width: 4.5rem;
+	height: .36rem;
+	margin-top: .26rem;
+	border: none;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+}
+.cancel{
+	font-size: .26rem;
+	color: #ccc;
+	float: left;
+	margin-top: .26rem;
+	margin-left: .2rem;
+}
+#body{
+	margin: 1rem .2rem 0 ;
+	box-shadow: 0 0 .1rem rgba(0, 0, 0, 0.5);
+}
+.body-address{
+
+}
+.body-address li{
+	background: #fff;
+	width: 100%;
+	height: 1.25rem;
+	border-bottom:1px solid #ccc;
+	padding-left: .36rem;
+	position: relative;
+}
+.body-address .btn{
+    position: relative;
+	padding-right: .8rem;
+	background: #fff;
+	width: 100%;
+	height: 1rem;
+	border-bottom:1px solid #f5f5f5;
+	padding-left: .36rem;
+	position: relative;
+	white-space:nowrap;/* 不换行 */
+	overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+	text-overflow:ellipsis;
+}
+.body-address span{
+	padding-right: .2rem;
+	font-family: '自定义';
+	line-height: 1rem;
+	color: #ccc;
+    font-size: .2rem;
+}
+.body-address .title{
+	background: #f7f7f7;
+	display: flex;
+	flex-wrap: wrap;
+}
+.body-address a{
+	font-size: .4rem;
+	font-family: '自定义';
+	color: #666;
+	text-align: right;
+	position: absolute;
+	right: .3rem;
+	bottom: .25rem;
+}
+#body .county{
+    position: absolute;
+	height: .26rem;
+	font-size: .26rem;
+	color: #333;
+	top: .13rem;
+    left: .76rem;
+}
+#body .address{
+    position: absolute;
+    color: #999;
+	font-size: .22rem;
+	height: .3rem;
+    width: 4rem;
+    top: .5rem;
+    left: .76rem;
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;
+}
