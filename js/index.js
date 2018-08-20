@@ -22,19 +22,18 @@ function create(newArr){
         }
     }
 }
-create(Arr)
+create(Arr);
 
 // 搜索函数
 document.querySelector('.input').oninput = function (e) {
     create(search(e.target.value))
 }
 
-let search = function(k){
-    Arr.filter(v => {
-        let total = v.name +v.city +v.county + v.address
-        + (v.phone && v.phone.join(''));
-        return total.indexOf(k) != -1;
-
+let search  = function (k) {
+    return Arr.filter(v => {
+            let total = v.name + v.city + v.county + v.address
+                + (v.phone && v.phone.join(''));
+            return total.indexOf(k) != -1;
         }
     )
 }
